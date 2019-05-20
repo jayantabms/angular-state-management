@@ -1,0 +1,22 @@
+<p>
+  page2 !
+</p>
+<div>
+  <form>
+    <div>
+      Age : <input [(ngModel)]="page2Data.age" name="age">
+    </div>
+    <div>
+      Sex : <input [(ngModel)]="page2Data.sex" name="sex">
+    </div>
+      <button type="button" class="btn btn-default" (click)="page2click()">
+        go to page3
+      </button>
+      <div>
+        <button type="button" class="btn btn-default" (click)="backPage()">
+          back to page1
+        </button>
+      </div>
+  </form>
+
+</div>

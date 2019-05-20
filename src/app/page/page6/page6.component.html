@@ -1,0 +1,22 @@
+<p>
+  page6 !
+</p>
+
+<div *ngIf="p1P2Data.page1data" >
+  Name: {{p1P2Data.page1data.name}}
+  Phone: {{p1P2Data.page1data.phone}}
+</div>
+
+<div *ngIf="p1P2Data.page2data">
+  Age: {{p1P2Data.page2data.age}}
+  Sex: {{p1P2Data.page2data.sex}}
+</div>
+
+
+
+
+<div>
+  <button type="button" class="btn btn-default" (click)="backPage()">
+    back to page5
+  </button>
+</div>
